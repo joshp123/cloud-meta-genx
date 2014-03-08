@@ -17,7 +17,7 @@ Clean up my GenX wrapper code
 
 Finish report scientific language
 
-Keep literally everything in Git
+Keep literally everything in Git - make a fork of original GenX
 
 Should
 ------

@@ -63,10 +63,10 @@ So, all we need to worry about is getting a standard Linux config set up that ca
 This is handled in `whatever.sh` idk
 
 ##### Stack of techs
-* debian linux
-* chef ?
+* debian linux ? yeah i really should use debian ubuntu sucks
+* Ansible playbooks for 1 click deployment (Tower for steroids edition)
 * digitalocean ? or aws? probably digitalocean its easier
-* celery, paralell dispatching
+* celery, paralell dispatching (fast, scales, no config)
 * rabbitMQ - broker for celery
 * 
 * my classes for automating it
