@@ -1,13 +1,13 @@
 Cloud Meta GenX TODO:
-
 ==============
 
 MoSCoW priorities:
 
 Must
 -----
-Get GenX working on the server
-Write a chef script or vagrant thing to automate the setup? use our puppetmaster server? investigate. 
+~~Get GenX working on the server~~ DONE
+
+~~start playbook going~~ DONE
 
 Set up the celery and flower worker thing and the backend
 
