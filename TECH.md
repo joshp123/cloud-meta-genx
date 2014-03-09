@@ -3,9 +3,9 @@ Technology Stack (and why bother? philosophy?)
 
 _Discussion of all the (seriously freakin awesome) technologies that underpin Cloud-Meta-GenX or whatever I'm calling it now_ (linux cmd to grep ./cloud-meta-genx/* and find replace all the titles goes here lol)
 
-this was actually 90% of the hard work too - picking something that's rich, fully featured, 
+this was actually 90% of the hard work too - picking something that's rich, fully featured, lightweight, extensible, human-friendly, and a strong starting point for a powerful new style of scientific analysis tool, making visualising scientific data easy to do from top to bottom.
 
-lightweight, extensible, human-friendly, fundamental
+http://12factor.net - this is a legit philosophy - software as a service
 
 https://www.digitalocean.com/competitor-pricing/
 
