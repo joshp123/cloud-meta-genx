@@ -2,67 +2,97 @@
 # genx control server
 # docs: http://flask.pocoo.org/
 # quickstart: http://flask.pocoo.org/docs/quickstart/#quickstart
+# to get files: os.root_path
 
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+# celery bootstrapping (for pro multitasking):
+# to start the server: $ celery -A controller_server.celery worker
 
 
-# examples:
-# @app.route('/user/<username>')
-# def show_user_profile(username):
-#     # show the user profile for that user
-#     return 'User %s' % username
+from celery import Celery
 
-# @app.route('/login', methods=['GET', 'POST'])
-# def login():
-#     if request.method == 'POST':
-#         do_the_login()
-#     else:
-#         show_the_login_form()
+def make_celery(app):
+    celery = Celery(app.import_name, broker=app.config['CELERY_BROKER_URL'])
+    celery.conf.update(app.config)
+    TaskBase = celery.Task
+    class ContextTask(TaskBase):
+        abstract = True
+        def __call__(self, *args, **kwargs):
+            with app.app_context():
+                return TaskBase.__call__(self, *args, **kwargs)
+    celery.Task = ContextTask
+    return celery
 
-
-# url_for('static', filename='style.css')
-
-# from flask import render_template
-
-# @app.route('/hello/')
-# @app.route('/hello/<name>')
-# def hello(name=None):
-#     return render_template('hello.html', name=name)
-
-
-# Inside templates you also have access to the request, session
-# and g [1] objects as well as the get_flashed_messages() function.
-
-# searchword = request.args.get('key', '')
+from flask import Flask, render_template
+from flask_bootstrap import Bootstrap
+# from flask_appconfig import AppConfig
+from flask_wtf import Form, RecaptchaField
+from wtforms import TextField, HiddenField, ValidationError, RadioField,\
+    BooleanField, SubmitField, IntegerField, FormField, validators
+from wtforms.validators import Required
 
 
-# You can handle uploaded files with Flask easily. Just make sure not to forget to set the enctype="multipart/form-data" attribute on your HTML form, otherwise the browser will not transmit your files at all.
-
-# Uploaded files are stored in memory or at a temporary location on the filesystem. 
-# You can access those files by looking at the files attribute on the request object.
-# Each uploaded file is stored in that dictionary. It behaves just like a standard
-#  Python file object, but it also has a save() method that allows you to store 
-#  that file on the filesystem of the server. Here is a simple example showing 
-#  how that works:
-
-# from flask import request
-
-# @app.route('/upload', methods=['GET', 'POST'])
-# def upload_file():
-#     if request.method == 'POST':
-#         f = request.files['the_file']
-#         f.save('/var/www/uploads/uploaded_file.txt')
-#     ...
-# If you want to know how the file was named on the client before it was uploaded 
-# to your application, you can access the filename attribute.
+# straight from the wtforms docs:
+class TelephoneForm(Form):
+    country_code = IntegerField('Country Code', [validators.required()])
+    area_code = IntegerField('Area Code/Exchange', [validators.required()])
+    number = TextField('Number')
 
 
+class ExampleForm(Form):
+    field1 = TextField('First Field', description='This is field one.')
+    field2 = TextField('Second Field', description='This is field two.',
+                       validators=[Required()])
+   fileName = FileField()
 
+
+    hidden_field = HiddenField('You cannot see this', description='Nope')
+    recaptcha = RecaptchaField('A sample recaptcha field')
+    radio_field = RadioField('This is a radio field', choices=[
+        ('head_radio', 'Head radio'),
+        ('radio_76fm', "Radio '76 FM"),
+        ('lips_106', 'Lips 106'),
+        ('wctr', 'WCTR'),
+    ])
+    checkbox_field = BooleanField('This is a checkbox',
+                                  description='Checkboxes can be tricky.')
+
+    # subforms
+    mobile_phone = FormField(TelephoneForm)
+
+    # you can change the label as well
+    office_phone = FormField(TelephoneForm, label='Your office phone')
+
+    submit_button = SubmitField('Submit Form')
+
+    def validate_hidden_field(form, field):
+        raise ValidationError('Always wrong')
+
+
+def create_app(configfile=None):
+    app = Flask(__name__)
+    AppConfig(app, configfile)  # Flask-Appconfig is not necessary, but
+                                # highly recommend =)
+                                # https://github.com/mbr/flask-appconfig
+    app.config.update(
+	    CELERY_BROKER_URL='redis://localhost:6379',
+	    CELERY_RESULT_BACKEND='redis://localhost:6379'
+	)
+    
+    Bootstrap(app)
+    celery = make_celery(app)
+
+    # in a real app, these should be configured through Flask-Appconfig
+    # app.config['SECRET_KEY'] = 'devkey'
+    # app.config['RECAPTCHA_PUBLIC_KEY'] = \
+    #     '6Lfol9cSAAAAADAkodaYl9wvQCwBMr3qGR_PPHcw'
+
+    @app.route('/')
+    def index():
+        form = ExampleForm()
+        form.validate_on_submit() #to get error messages to the browser
+        return render_template('index.html', form=form)
+
+    return app
 
 if __name__ == '__main__':
-    app.run(debug=True) # turn off in production lol
+    create_app().run(debug=True)

@@ -59,8 +59,12 @@
 
   - name: if no anaconda do flask dependencies (check website)
   - shell: echo "FLASK DEPENDENCIES NOT YET IMPLEMENTED"
-  - name: check FLASK installed
-  - shell: 
+
+  - name: check FLASK installed otherwise
+  - shell: pip install flask
+
+  - name: twitter bootstrap for flask
+  - shell: pip install flask-boostrap 
 
   - launching:
      - name: celery init

@@ -13,7 +13,7 @@ Cloud Meta GenX TODO/ROADMAP:
 3) BETA1: sexy graphs
 	* get bokeh working
 4) BETA2: parallel dispacthing
-	* play with celery more (low priority as long as 1 instance works, linearity is not that much of a drawback=)
+	* play with celery more (low priority as long as 1 instance works, linearitsudo pip y is not that much of a drawback=)
 
 
 MoSCoW priorities:
@@ -25,7 +25,8 @@ get all the web shit
 - headless + params code
 - first push butan run python thing
 - second push butan with parameters for python thing (just do one)
-- (could) third metaprogram it and make a UI for all of them 
+- (could) third metaprogram it and make a UI for all of them
+- logs
 
 work in some ramujan shit - i have shittons of insight but i'm not great at explaining it
 
