@@ -1,9 +1,11 @@
-Technology Stack
+Technology Stack (and why bother? philosophy?)
 ================
 
 _Discussion of all the (seriously freakin awesome) technologies that underpin Cloud-Meta-GenX or whatever I'm calling it now_ (linux cmd to grep ./cloud-meta-genx/* and find replace all the titles goes here lol)
 
 this was a bunch of the hard work too - picking something that's rich, fully featured, 
+
+lightweight, extensible, human-friendly, fundamental
 
 https://www.digitalocean.com/competitor-pricing/
 
@@ -24,6 +26,7 @@ Visual Studio 2013 with python tools - free, and intellisense code highlighting 
 
 digital ocean - servers on steroids for lazy people (yay)
 sublime text 2 - sexy words
+http://sublimecodeintel.github.io/SublimeCodeIntel/ - intellisense clone?
 markdown - really easy to write documentation and sexy words
 os x - really good for humans buy a fuckin mac
 

@@ -1,6 +1,9 @@
 # genx playbook
 # sets up and configures a GenX environment on Linux
 
+# THIS IS PURELY A TEST VERSION TO TELL YOU WHAT TO DO IT'S NOT ACTUALLY EXECUTABLE
+# YET SO DON'T EVEN TRY
+
 # Known issues:
 
 # TODO:
@@ -14,7 +17,7 @@
   vars:
     http_port: 80
     max_clients: 200
-  remote_user: root
+  # remote_user: root
   tasks:
   - name: basics (git and python)
   - shell: apt-get install git python-dev
@@ -25,6 +28,8 @@
   - name: maybe avoid this with anaconda TEST THIS ON A CLEAN BOX # TODO: make this version insensitive
   - shell: wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.9.1-Linux-x86_64.sh
 			bash Anaconda-1.9.1-Linux-x86[_64].sh
+
+			# NB ANACONDA HAS AN INTERACTIVE SETUP AND CAN'T BE SCRIPTED
 
 
 
@@ -51,6 +56,11 @@
   - name: git clone GenX repo? (or did we handle this earlier idk)
   - shell: git clone https://github.com/joshp123/cloud-meta-genx.git
   # stick it somewhere sensible
+
+  - name: if no anaconda do flask dependencies (check website)
+  - shell: echo "FLASK DEPENDENCIES NOT YET IMPLEMENTED"
+  - name: check FLASK installed
+  - shell: 
 
   - launching:
      - name: celery init
