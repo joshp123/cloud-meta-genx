@@ -1,7 +1,25 @@
-GenX Architecture and structre
+GenX Architecture and structre (methods/conclusions parallels)
 ==============================
 
 ####_Insights gained from analysis of GenX to help further dev work_
+
+essentially looking at software from this angle of: 
+a) best practices
+b) OO-design and principles (SOLID GRASP MCV)
+c) modularity (unix philosohpy)
+
+... is actually incredibly powerful, and, when applied using "thought experiments" to theoretical physics, has given me some incredibly promising hypotheses/theories in the fundamental nature of reality (think Godel's incompleteness theorems, ZFC-set theory, and modelling the information theory of reality as a multi-dimensional Hilbert-Space, using the complex topology manifolds by studying edge cases (asymptotes or physical extremes) to make implications about the underlying dimensionality and number strucutre. You can prop it up with applying some philosophical meta-physics, quantum mechanics, )
+
+These ideas are incredibly fascinating, but unfortunately i have to do this BSc project thing first, so are out of the scope of this (still, this project taught me an insane amount of full stack knowledge. watch this space.) If the hypotheses hold, and reality is somewhat-trivially computable as long as you do it properly, this has huge advances towards the (hypothesised) [technological singularity] as proposed by John von Neumann in 1958. (Current estimates reckon about 2040 - I'm pretty sure it will be 2020 if we give it a good shot. The future is already here: it's just not very evenly distributed (William Gibson - _Neuromancer_)).
+
+Using a "what-if?" thought experiment to guess the potential benefits to an "ideal world" (in the spherical cow sense, obviously) of taking a bigger picture view really emphasises the principles of "getting it right first time", and constantly building on your knowledge.
+If I just improved a few lines of code related to the specific implementations of these algorithms in GenX, if I was lucky, this could provide a single valuable insight into the study of X-rays in a couple of situations, but probably wouldn't. It'd also take a while and be pretty boring too. 
+
+On the other hand, using software dev experience, paired with a rigorous analysis of the system from first principles, similarly to how calculus and quantum mechanics started off (well ish but you get the idea), can reveal a more fundamental insight: but if you estabish general principles (software best practices, paired with standard physical numerical methods of analysis), then you can make something potentially more profound.
+
+This is exactly what I've tried to do here. The current shortcomings of GenX are pretty common to all scientific software and current analysis tools: they're hard to set up, hard to use, break a lot, aren't well documented, the underlying code is a horrible mess, and they're frankly ugly as all hell (compare your average scientific). This isn't particularly inherent, it's just because scientists have gone and learned the skills to develop these tools on a one off basis - so haven't been exposed to the really useful recent learning in software development practices. Physicsists know how to think, software engineers apply that thinking in a rigourous conceptual analytical way (think Lagrangian mechanics, dynamics of systems, constraints), and know how to put that thinking into making stuff. One thing both software and physics people are also really bad at is user centric design: if you're writing software from a technical point of view, the technical abilities are more important to you than how the user will interact with this. Unforunately, being easy for human beings to use is really important. Nobody in their right mind uses linux as their daily computer - doing everything through a text based interface is utterly insane, and not how humans work - we need visual, auditory, kinetic stimulation - staring at text and equations is not a good way to inteprete information or data. Nobody embodies this attitude more than the hugely inspirational Steve Jobs. His brilliant computing insight was to blend technical wisdom and robustness with liberal arts: making beautiful computers, software and hardware that people love to use, and freeing them from the irritation of having to janitor technical aspects
+
+(full disclosure: this entire project was written on a late 2013 13" Macbook Pro running OS X with 2x external displays for a total of about 8 million pixels of screen space. It's an amazing computer platform, and genuinely wouldn't have been possible without Steve, the user-friendly philosophy and trickle-down effects into userspace make using a UNIX-backed OS X computer shockingly powerful, flexible, and easy to adapt a mental model to - the power of the human centric design really lets your mental model map very directly onto what you're doing, and it looking pretty means you'll actually want to use the tools to write code/do physics: they're almost fun.)
 
 I guess this is a code reveiw against best practices - SOLID, GRASP, MVC and various software development "anti-patterns" (dumb things programmers still do).
 

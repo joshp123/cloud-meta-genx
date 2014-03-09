@@ -1,11 +1,24 @@
-Cloud Meta GenX TODO:
+Cloud Meta GenX TODO/ROADMAP:
 ==============
+
+
+## MILESTONES:
+
+1) PRE-ALPHA CONCEPT: genX analysis from browser, spits out CSV
+2) ALPHA: upload a .GX, and .py scripts, push butan get data
+	* finish report here, add latex/pdf to git to include the report in the repo
+	* update documentation
+3) BETA1: sexy graphs
+	* get bokeh working
+4) BETA2: parallel dispacthing
+	* play with celery more (low priority as long as 1 instance works, linearity is not that much of a drawback=)
+
 
 MoSCoW priorities:
 
 Must
 -----
-~~Get GenX working on the server~~ DONE
+~~Get GenX working on the server~~ DONE 
 
 ~~start playbook going~~ DONE
 
