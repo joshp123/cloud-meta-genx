@@ -3,7 +3,7 @@ GenX Architecture and structre
 
 ####_Insights gained from analysis of GenX to help further dev work_
 
-I guess this is a code reveiw against best practices - SOLID, GRASP, and various software development "anti-patterns" (dumb things programmers still do).
+I guess this is a code reveiw against best practices - SOLID, GRASP, MVC and various software development "anti-patterns" (dumb things programmers still do).
 
 This is basically the hard bit of being a developer. If you don't think a bunch about conceptualizing your code and fitting it in with SOLID
 
@@ -17,8 +17,19 @@ AGILE AS FUCK
 - test/spec/milestone driven development
 - think hard before writing code (kinda like with physics, dont just dive in or you'll have no idea what you're doing an not a full scope of the problem)
 
-
 (and make your dev easy)
+
+http://en.wikipedia.org/wiki/Aspect-oriented_programming
+
+LACK OF MVC ARCH FUCKED IT
+- view should be your POS lab compuuter
+- model should be in a database
+- controller should live on a server (but be pure code that you can spin up)
+
+SPERGING ABOUT SOFTWARE DEV
+
+- add some stuff about the hilarious SLOC/file in GenX
+- maybe functions/classes static code analysis (but basically its an antipattern)
 
 This analysis was basically the core of the BSc project. It really doesn't *look* like a whole lot of work - yes, Josh, you pored through a lot of hard source code for a while and complained about how it sucked and the tools sucked and so on. In terms of SLOC written, sure, but dissecting the programs architecture, workflow and potential improvements was much easier to do when just ripping it out and trying to hack it together.
 

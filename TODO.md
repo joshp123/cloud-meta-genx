@@ -64,3 +64,5 @@ Won't
 --------
 
 strip out unused UI code (it just pads the git clone and looks ugly in lib folder)
+
+get it to plot the spectra like GenX does on the server (this would own, it uses matplotlib too so you can do it on the webs woop)
