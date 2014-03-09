@@ -3,7 +3,7 @@ Technology Stack (and why bother? philosophy?)
 
 _Discussion of all the (seriously freakin awesome) technologies that underpin Cloud-Meta-GenX or whatever I'm calling it now_ (linux cmd to grep ./cloud-meta-genx/* and find replace all the titles goes here lol)
 
-this was a bunch of the hard work too - picking something that's rich, fully featured, 
+this was actually 90% of the hard work too - picking something that's rich, fully featured, 
 
 lightweight, extensible, human-friendly, fundamental
 
