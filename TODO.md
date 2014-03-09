@@ -5,6 +5,8 @@ Cloud Meta GenX TODO/ROADMAP:
 ## MILESTONES:
 
 1) PRE-ALPHA CONCEPT: genX analysis from browser, spits out CSV
+	* get a demo up, don't worry about self-deploying yet
+	* make sure this is live @ genx.joshpalmer.co.uk before deadline
 2) ALPHA: upload a .GX, and .py scripts, push butan get data
 	* finish report here, add latex/pdf to git to include the report in the repo
 	* update documentation
@@ -22,10 +24,26 @@ Must
 
 ~~start playbook going~~ DONE
 
+make a meta-programming framework for using GenX with a 
+yaml bindings from diffev public methods to a YAML file
+
+Could make a parser thing to gen one from a model but lol
+
+maybe a meta-programming class to inspect the methods and vars and export them to a yaml thing?
+print([m for m in dir(simple) if not m.startswith('__')])
+
+ok this is where the getters and setters might actually be useful lol
+
+another meta-pgoramming thing to go YAML -> python but that's probably just on the server (although should have an interface)
+
 Set up the celery and flower worker thing and the backend STARTED
 - debug why its not talking to the backend
 - get arbitrary tasks reporting
 - then scaffold in GenX
+
+http://skuld.bmsc.washington.edu/scatter/AS_form.html - steal gnuplot shit
+
+conceptualise our data for bokeh graphing - what are we plotting, against what, and why (could add gavin's fitting code)
 
 Write the code for the backend reporting ? basically just write to the files asnynchromously? or have a collecting thing idk
 
@@ -38,6 +56,8 @@ Finish report with scientific language - 3 hours
 Keep literally everything in Git - make a fork of original GenX - 10
 
 test an example ansible playbook doing helloworld before trying to run ours - 10
+
+mention that 90% of our time was theoretical architecture work, reading, structuring things out, analysis, building a mental model (this is why i have no lab book just a git repo- its hard to document)
 
 Should
 ------

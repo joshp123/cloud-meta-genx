@@ -22,10 +22,16 @@
   - name:install pip
   - shell: apt-get install pip
 
+  - name: maybe avoid this with anaconda TEST THIS ON A CLEAN BOX # TODO: make this version insensitive
+  - shell: wget http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.9.1-Linux-x86_64.sh
+			bash Anaconda-1.9.1-Linux-x86[_64].sh
+
+
+
   - name: set up the numpy/scipy prereqs (fortran compiler lol.)
   - shell: apt-get install libatlas-base-dev
 
-  - name: add swap so that scipy can compile lol # (can't hurt for later, you can always turn off [nomfp]).
+  - name: add swap so that scipy can compile lol # (can't hurt for later, you can always turn off [nomfp ]).
   - shell: sudo /bin/dd if=/dev/zero of=/var/swap.1 bs=1M count=1024;
 			sudo /sbin/mkswap /var/swap.1;
 			sudo /sbin/swapon /var/swap.1;
