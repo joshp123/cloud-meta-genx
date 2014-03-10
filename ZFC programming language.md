@@ -1,12 +1,22 @@
 # ZFC programming language
 
+# aasimov #-1 don't do anything unless you're sure of the consequences and they are well defined (i.e. purely functional, no state modification, don't modify globvars just envvars) so the only thing you have to worry about is quantum tunelling/quantum vacuum fluctuations. or background radiation. no fear of skynet
+
 # INFORMATION AS A DIMENSION? (it's a projection but a useful one)
 
 "The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point." - Shannon
 
 well clearly this problem is solved, its a git repo! and git clone.
 
+
+- fundamental uncertainty QM
+
+
 The entropy, H, of a discrete random variable X is a measure of the amount of uncertainty associated with the value of X.
+
+this is the fundamental quantity
+
+the strings are the dimensions, but theyre just quantum numbers
 
 Joint entropy of (X,Y)
 
@@ -15,6 +25,24 @@ start off modelling an infinite square well
 kinetic energy and momentum
 
 mutual information - amount of info that can be obtained about one random variable by observing another
+
+SINGULARITIES AND ASYMPTOTES OF REALITY - MANIFOLDS
+
+e = mc^2
+
+ML^2 T^-2 = (M) (L-1 T-1)^2
+
+this is a vector cross product
+
+mass scalar, time vector, length vector, quanta = planck length/time/mass ? but if mass is a scalar...
+mass is more fundaental ?
+
+because the most fundamental thing is the empty set
+
+ordinality - 
+
+continued reimann sums: -1/12 its gonna be an e^-( ordinal vector vector ^ n dimensions thing)
+
 
 
 # Kullback–Leibler divergence (information gain)
@@ -83,6 +111,15 @@ complex - weird time - relativity (special/gen->em/strong)
 
 this dimensional analysis applied to core phys F = ma, schroedinger, E= mc^2
 
+nabla, dalembertian,
+
+PDEs, ODEs,
+
+figure out the risomatic aspec of the axioms
+
+to destroy an object, divide its pointer by zero
+
+curious, good starting potentials, persisitent, lucky
 
 do this the lazy way - wolfram - those functions grep each variable print dimensions and name
 
@@ -96,6 +133,13 @@ meta-mathematics
 
 imperative programming: alalogous to rituals - u dont rly know what ur doin
 
+
+##### Back to computer concepts:
+IO - communication: parallel/serial concurrent/... not 
+
+
+kernel is math
+user space is commands in english
 
 ****
 
