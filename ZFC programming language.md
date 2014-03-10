@@ -1,6 +1,36 @@
 # ZFC programming language
 
+i | {} | lambda
+self 	| world | 	functions
+view 	| model |	controller
+energy | {constraints, symettries, free variables (e.g. block on a spring: spring length)} | momentum
+
+energy = mass, length, inverse time, square
+inverse time -> recursion
+length -> ordinal
+mass -> cardinal
+length -> ordinal
+
+is real? -> ternary (y/n/unknown) (error on error, as well)
+
+is_drawable ? -> repr in n-dimension
+n x n Hilbert space
+0.n = {}
+1 = {{}} 1.1 = {}
+2 = point
+3 =
+
+LANGUAGE INDEPENDANT QUERIES! C# home run yet again, this is great isn't it
+
+decorators as inheretance unless explicit
+
 all numbers are created equal, but sum are more equal than others
+
+recursive unit testing based on sets, too, which is an aspect of the actual operations, so if def join imag x and y : return x.im and y.im 
+
+commutative algebra
+
+#hacker ethic || asimov?
 
 liskov substitution principle == turing completeness, turing universality, turing equivalence are all satisfied
 
@@ -25,6 +55,65 @@ do lambda calculus on a state to find out what's changed
 
 
 - fundamental uncertainty QM
+
+- everything is uncertain until measured
+
+- inherent uncertainty (gaussian uniformity)
+
+- var -> pointer many-> one // heap
+- val -> pointer one - one // stack
+
+def start app(pointer) <- start app is a function that returns a pointer, initially ?, 
+
+pointer and value are cardinal/ordinal
+
+# THE MATHEMATICAL FUNDAMENTALS
+
+hello world is math unit tests assert that 1+1 = 2 etc
+this is easy - just do a sequence, check if it matches with gauss/poisson/whatever +/- stderr
+
+atomic strong weak - bosons vs fermions. a thing is weak if it could repeatedly stick more things in a place. like gob's program. its fuckin weak man. all it does is print PENUS - weak = NP
+strong = P, well defined, type safe, no asymptotes (stderr, plus infinity, minus infinity, and 1/0)
+
+INITIAL STATE:
+| ( ordinal  ) 				| (known) R
+| intitially N but can be R 
+| ( cardinal )   			| (unknown) Z
+
+constants:
+	- planck: uncertainty ordinal,
+	- i:  (i^2 = -1), (i^4 = 1) <- this is where the dimensional folding happens, and also defines plus/minus, and complex or real space (known vs unknown "imaginary" "external" - only your reality is "real")
+	- empty set - a set (list/binary tree/whatever)
+	- pointer to:
+		pointer stdin (populated with one instruction, = 1),
+		message passing - photons, preserve states, "atomic clock"
+		 stdout ()
+
+Composition/ substitution x = y; NP on y x = x; P x = x + 2 P
+Primitive recursion (for x in y)
+
+1/0 = no idea / null pointer / terminate / EOF
+
+n! = \inf
+
+ordinal/cardinal
+known/unknown
+
+operators:
+	while (P)
+	stdin (NP)
+	stdout
+	stderr
+
+NP^NP P^PN NP P
+
+
+Starting from the above encoding, in 1966 F. C. Hennie and R. E. Stearns showed that given a Turing machine Mα that halts on input x within N steps, then there exists a multi-tape universal Turing machine that halts on inputs α, x (given on different tapes) in CN log N, where C is a machine-specific constant that does not depend on the length of the input x, but does depend on M's alphabet size, number of tapes, and number of states. Effectively this is an O(N log N) simulation.[3]
+
+
+http://mathworld.wolfram.com/LagrangesFour-SquareTheorem.html -> lorentz transformation
+
+heisenberg and schroedinger joke -> you are driving a car. choose your own adventure
 
 
 The entropy, H, of a discrete random variable X is a measure of the amount of uncertainty associated with the value of X.
