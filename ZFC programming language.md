@@ -10,11 +10,82 @@ The entropy, H, of a discrete random variable X is a measure of the amount of un
 
 Joint entropy of (X,Y)
 
+start off modelling an infinite square well
 
+kinetic energy and momentum
+
+mutual information - amount of info that can be obtained about one random variable by observing another
+
+
+# Kullback–Leibler divergence (information gain)
+
+[example experiment](http://upload.wikimedia.org/math/8/e/7/8e7c3b0f381df46720176d46d72d6160.png "Example ex[eriment")
+
+information theory of bernoulli trial/bernoulli scheme
+
+test: countable direct product -> observable operator -> projection
+base space -> observer hilbert space
+
+apply to [meausure (math theory)](http://en.wikipedia.org/wiki/Measure_space#measure_space) all sets: R^n dimensions of space
+
+Technically, a measure is a function that assigns a non-negative real number or +∞ to (certain) subsets of a set X (see Definition below). It must assign 0 to the empty set and be (countably) additive: the measure of a 'large' subset that can be decomposed into a finite (or countable) number of 'smaller' disjoint subsets, is the sum of the measures of the "smaller" subsets. In general, if one wants to associate a consistent size to each subset of a given set while satisfying the other axioms of a measure, one only finds trivial examples like the counting measure. This problem was resolved by defining measure only on a sub-collection of all subsets; the so-called measurable subsets, which are required to form a σ-algebra. This means that countable unions, countable intersections and complements of measurable subsets are measurable. Non-measurable sets in a Euclidean space, on which the Lebesgue measure cannot be defined consistently, are necessarily complicated in the sense of being badly mixed up with their complement. Indeed, their existence is a non-trivial consequence of the axiom of choice
+
+###### The Simplest observable:
+```python
+def measure(object):
+	return ['']
+
+###### The simplest object, a set (a null pointer):
+```python
+Class FundamentalObject(type, dimensions, R^n, bitmask):
+	def __init(self)__:
+	# so 0 = fundamental particles, 1 = fermions, bosons, etc
+	# init is just a recursive thing on the bitmask until you head down the set-inheretance heirarchy
+		return ['']
+
+###### Axioms - write in functional code and then that's the back of this problem broken. this is a final, virtual class - it's not implementation specific at all. axioms are independant of situation
+
+#### SOLID -> MATH
+
+### STRONG/WEAK forces -> strong/weak typing inheretance is gravity?
+
+
+enum FundamentalTypes:
+{
+	empty set
+}
+
+from [wolfram math world](http://mathworld.wolfram.com/Measure.html): 
+
+>	A measure is defined as a nonnegative real function from a delta-ring F such that
+>
+>	 m(emptyset)=0, 	
+>	(1)
+>	where emptyset is the empty set, and
+>
+>	 m(A)=sum_(n)m(A_n) 	
+>	(2)
+>	for any finite or countable collection of pairwise disjoint sets (A_n) in F such that A= union A_n is also in F.
+
+this is the most basic observation. stuff is hard b/c its badly mixed up wtih complement? yes, this is because of you being wron  and applying the axiom of choice to ur measurement space in an invalid way - idk like the ether idea of photons or whatever. 
+
+this ALSO aplies to our objects, as they are, after all objects that play by the same rules - except their "self" is the computer
+
+ergodic theory, - peturbation of dynamical systems: sin, ln, exp, x^n, complex
+
+entropy -> ln
+sin -> t
+e^ -> anti-entropy
+x^n -> euclidian
+complex - weird time
+
+****
 
 
 Concepts:
-Generative grammar, recursion, start off from very basic knowns, dE, dp, hbar, and a certainty related to that? shannon unit?
+Generative grammar, constant recursion, start off from very basic knowns, dE, dp, hbar, and a certainty related to that? shannon unit? start off from thought experiments
+
+define asimov early on lol. u wanna be safe. also don't instantly hook it up to wikipedia and see what it does do that in a lame duck debug mode lol, thats what skynet taught us.
 
 add ZFC mathematical axioms into the generative grammar and you have the foundations of maths
 
@@ -32,6 +103,8 @@ self for the computer is just its environment but the concept extends to any rel
 
 all events are inherently lorentz transformed (but not much)
 dispersion operators on the total entropy of the information field
+
+continous integration, constant verification - blockchain
 
 notes
 ========
