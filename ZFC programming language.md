@@ -6,7 +6,8 @@
 
 "The fundamental problem of communication is that of reproducing at one point, either exactly or approximately, a message selected at another point." - Shannon
 
-well clearly this problem is solved, its a git repo! and git clone.
+well clearly this problem is solved, its a git repo! and git clone. git add state/* 
+do lambda calculus on a state to find out what's changed
 
 
 - fundamental uncertainty QM
@@ -26,7 +27,7 @@ kinetic energy and momentum
 
 mutual information - amount of info that can be obtained about one random variable by observing another
 
-SINGULARITIES AND ASYMPTOTES OF REALITY - MANIFOLDS
+### SINGULARITIES AND ASYMPTOTES OF REALITY - MANIFOLDS
 
 e = mc^2
 
@@ -42,6 +43,40 @@ because the most fundamental thing is the empty set
 ordinality - 
 
 continued reimann sums: -1/12 its gonna be an e^-( ordinal vector vector ^ n dimensions thing)
+
+reality is clearly fractals - recursive sums of e * some quantum numbers and pi * some other quantum numbers ln( one of them numbers ) * dimensions sin (e pi i ) functions just iterated 
+
+### so basically
+
+we have: e, i, pi constants - model
+we have: {} empty set which implies ordinality and cardinality - view (buckets, projections, slices)
+we have functions: sine: periodicity logarithm: order and anti-order (cosin), and anti-order, chaos: (exp)
+theories as monads - chains of functions, so you can define pretty much any math thing in terms of a chain of these - unions of sets or the number of elements of sets (from ordinal/cardinal)
+we have: zfc axioms - controller, all of which boils down to the axiom of choice - free will, essentially, and the free will is in the controller?
+
+### interesting paralells:
+cool stuff:
+	- logarithmic advances in human technology. advancing towards singularity: order
+	- _*OOOH** MAYBE YOU DON'T EVEN NEED E I OR PI - they all have continued sum representations, which is, yep, you guessed it: a monad. cool huh
+	- reimann sums are just hella weird monads and guess what they also generate fractals right?
+	- linear relations are usually jsut a continued sum - this is why calculus does actually work, after all the underlying dimensionality is there
+	- same with stephen wolfram's a new kind of science - those hella cool pictures of stuff generating and dying out with repeated sums, they parallel nature and some of them lead to complexity, exactly because that's all math is, just a bunch of these same rules done repeatedly -- see below
+	- to be honest you could probably define sin and cos as repeated sums too - oh wait yeah division of two scalars = sin something (in rads, which is why you use rads)
+	- this probably implies orthogonalighty - ie. right angles as a thing are important. same with cuves. same with the golden ratio. its the same just cool repeated sums that are nice because the numbers are nice. so i guess if we just modelled reality it might all be continued sums of the perfect ratio (0.61803398875), - inverse fibbonaci
+	- now the way reality seems to have evolved is just energetically favourable configurations of these dimensiony things. so what stephen wolfram did doing the iterative sequencies and found that some died out quick, but some became complex, and some became periodical
+
+
+derived things:
+- euler's formula is probably acutally really helpful here since those are the 3 fundamental things
+- reality is probably just a combination of the dimensions of eulers formula? (i.e. ordinality, cardinality of each element), then the combinations thereof all line up nicely and when its a nice energetically favourable config then it sticks about. sometimes it does some crazy weird stuff for a bit then goes periodical or constant. sometimes it asymptotes. but other than that there's not much else
+- other things are gonna be chains of differential calculus and weird orders of iterated ln sin functions etc
+- we can proabbly just steal some mathematica source code and hilariously metaprogram this with some templates (projection operator matrixy thing) to predict what reality's doing (and also if it differs then we may be wrong (also i might suck at programming))
+
+quantum mechanics formulation:
+	-
+	
+
+this defines basically all of euclidian space, quantum mechanics, maths, infinity, reimann sums, vector spaces, fuck it you name it this is in here
 
 
 
