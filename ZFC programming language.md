@@ -1,5 +1,18 @@
 # ZFC programming language
 
+
+turing machine as fabey/perot infereometer (just quite good) or michelson moreley inferometer measuring bg radiation (physics) and the structure of it (math) and the why (philosophy)
+
+LINQ lambda functions of number theory
+
+controller: simple turing machine
+
+model: its just numbers man
+
+uncertainty - pauli matrix
+
+derived entirely from first principles
+
 i | {} | lambda
 self 	| world | 	functions
 view 	| model |	controller
