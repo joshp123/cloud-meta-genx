@@ -71,13 +71,31 @@ this is the most basic observation. stuff is hard b/c its badly mixed up wtih co
 
 this ALSO aplies to our objects, as they are, after all objects that play by the same rules - except their "self" is the computer
 
+Noether's theorem
+
 ergodic theory, - peturbation of dynamical systems: sin, ln, exp, x^n, complex
 
-entropy -> ln
-sin -> t
-e^ -> anti-entropy
-x^n -> euclidian
-complex - weird time
+entropy -> p ln p units -> (shannon) -> information, order
+sin -> (t,) (t,x) // consts wavenumber and http://mathworld.wolfram.com/WaveEquation.html periodic pertubations (dt = planck time)
+e^ -> anti-entropy -> also inheretance -> erdos number -> chaos
+x^n -> euclidian - just spatial constraints 
+complex - weird time - relativity (special/gen->em/strong)
+
+this dimensional analysis applied to core phys F = ma, schroedinger, E= mc^2
+
+
+do this the lazy way - wolfram - those functions grep each variable print dimensions and name
+
+template interactions - strong/weak/grav/em
+compare dimentions (strong has color charge, is weird) (weak h)
+
+superpositions and intersections of the dimensional orders
+meta-mathematics
+
+(if u wanna recursively do this based on scipy libs you could i guess)
+
+imperative programming: alalogous to rituals - u dont rly know what ur doin
+
 
 ****
 
