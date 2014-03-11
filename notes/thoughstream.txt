@@ -48,3 +48,56 @@ uncertatiny is a quaternion fractal -  He could not figure out how to calculate 
 quaternions are divisible - hindsight is 2020, multiplication is not commutative, so you can't predict how it will evolve (inhereent)
 Real numbers Complex Numbers H - quaternion numbers
 http://en.wikipedia.org/wiki/Quaternion#Square_roots_of_.E2.88.921
+
+exp/log/power of quaternions - as functions of euler
+polar decomposition is numeral
+power series are trivial
+abcd quaternions are the transcendtal numbers? norm = e? components i, pi, 1 euler/mascheroni
+this defines inherent uncertainty? and projections onto the upper space, branching functions, physical constants
+quaternions define a 3 dimensional vector space - which is our core 3 dimensions, uncertainty (fractal), i^2, ai, and bi, ordinality/cardinality - axiom of choie?
+think pauli matrices for our 3 dimension rotations
+reflection of a basis element is evolution in time - everything is just a refelction back/forward in infinite minkowski/lorentz space
+even part of the clifford algebra
+AHA clifford algebra is going to have our extra dimension of time, giving us the full 5 pentagonal numbers
+
+In the Clifford algebra Cℓ4,0(R), there are six bivector basis elements, since with four different basic vector directions, six different pairs and therefore six different linearly independent planes can be defined. Rotations in such spaces using these generalisations of quaternions, called rotors, can be very useful for applications involving homogeneous coordinates. But it is only in 3D that the number of basis bivectors equals the number of basis vectors, and each bivector can be identified as a pseudovector.
+
+yeps!
+
+Dorst et al. identify the following advantages for placing quaternions in this wider setting:[22]
+Rotors are natural and non-mysterious in geometric algebra and easily understood as the encoding of a double reflection.
+In geometric algebra, a rotor and the objects it acts on live in the same space. This eliminates the need to change representations and to encode new data structures and methods (which is required when augmenting linear algebra with quaternions).
+A rotor is universally applicable to any element of the algebra, not just vectors and other quaternions, but also lines, planes, circles, spheres, rays, and so on.
+In the conformal model of Euclidean geometry, rotors allow the encoding of rotation, translation and scaling in a single element of the algebra, universally acting on any element. In particular, this means that rotors can represent rotations around an arbitrary axis, whereas quaternions are limited to an axis through the origin.
+Rotor-encoded transformations make interpolation particularly straightforward.
+
+time defines our ternary BOOLs - our boolean algebra. past is certainty: i^2 = yes, future is uncertainty, -i^2 = i, NO, but interestingly NOW is unknown - -i^4
+get a bit heavy with lorentz algebra, clifford algebra, poincaregroup, minkowski spacetime, clifford algebra
+de sitter group is 5?
+mass - cardinality
+spin - ordinality
+entropy/information - certainty
+these are our irreducible representations
+see: wigner's calssification
+spin, parity, charge conjugation
+CPT invariance
+elrangen program - geometry ofminkowski space is defined by the poincare group 
+Since CPT is an invariance of every quantum field theory, a time reversal quantum number could easily be constructed out of those given.
+
+As a topological space, the group has four connected components: the component of the identity; the time reversed component; the spatial inversion component; and the component which is both time reversed and spatially inverted.
+
+particles and antiparticles formulation
+
+spinpartiy, flavor content
+
+confinement/asymptotic freedom
+
+three quarks for muster mark
+
+reflector != =! supersymmetry - antithesis?
+
+gluon octet - is this hyperquaternions?
+
+The sign problem is NP-hard, implying that a full and generic solution of the sign problem would also solve all problems in the complexity class NP in polynomial time
+
+again i think eurler's formula overlooks a sign error, theory so far has potential so ffar to solve P=NP... so
