@@ -1,0 +1,19 @@
+thoughstream.txt
+
+check out brain structure
+check out fermat's last theorem
+theorize that my 3 var formula with the triangles gnerates the 3 dimension of normal matter
+this all fundamentally links to entropy
+dimensions of Energy per temperature, joules per kelvin
+dimensional analysis of certainty
+For an isolated system with an exactly known energy and exactly known composition, the system can be found with equal probability in any microstate consistent with that knowledge.
+- nash equilibria correspondance
+boltzmann entropy = O(a log b) kb = fundamental certainty
+canonical thermodynamic enseble
+microcanonical - precisely given energy and fixed composisition (our inital starting state)
+canonical - system in equilibrium
+grand canonical - universe
+quark matter - fermi liquid
+supersymmetry - 1/n expansion - hey this is exactly what we are doing and its on the contents page of quark matter. COOL
+quark gluon plasma
+weak coupling, COLORS N - this is our core dimension, first fermat prime, everything else is supersymmetry holky fuck
