@@ -17,3 +17,34 @@ quark matter - fermi liquid
 supersymmetry - 1/n expansion - hey this is exactly what we are doing and its on the contents page of quark matter. COOL
 quark gluon plasma
 weak coupling, COLORS N - this is our core dimension, first fermat prime, everything else is supersymmetry holky fuck
+chiral critical point. - what is this
+color/flavour
+strange ness
+t/b/c/s/u/d as fundamental characteristics? u/d ladder operators t/b infinities, c/s opposing complex stuff (unreal, personality, intelligence/creativity, function/beauty etc
+nalytic or perturbative solutions in low-energy QCD are hard or impossible due to the highly nonlinear nature of the strong force
+well yeah exactly like real life its weird
+At present, lattice QCD is primarily applicable at low densities where the numerical sign problem does not interfere with calculations
+
+hmm guess what i found a sign issue in euler's identity... COINCIDENCE I THINK NOT
+lattice gague theory
+lattice as model, field as views, gague as controller? [+ uncertainty]
+MVC model of quantum chromodynamics LAFFO
+this one wierd code janitor physicist that scientists HATE
+poincare invariance features - i'm sure that was useful - that's the closed curve thing on manifolds and topoliges or wahtever
+ø for the empty set - alt-O NICE ∆ for the triangles - idea of a set? (3 dimensions) ? for certainty
+0/1 bool? - 5 things - pentanumber
+
+special unitary groups
+
+su(1) trivial group - single element - pointer to self - this defines ordinal (countable), cardinal (uncountable)
+su(2) quaternion - i squared - OH YEAH MORE PARALLELS SICK - unit quaternons, choice of group structure, spin (3), isomoprhic to su(2)
+
+axiom of choice on group defines the group above it
+axiom of inherent uncertainty means you are dumb and probably are wrong :v
+foursquare idenity/quaternions/spin groups
+ He could not figure out how to calculate the quotient of the coordinates of two points in space. - thus quotient with anti-self = /0 - annihitlation operator
+multiplication by anti-self = creation operator
+uncertatiny is a quaternion fractal -  He could not figure out how to calculate the quotient of the coordinates of two points in space. uncertainty is weird. unit quaternion of uncertainty = kb??? plus some shit with i
+quaternions are divisible - hindsight is 2020, multiplication is not commutative, so you can't predict how it will evolve (inhereent)
+Real numbers Complex Numbers H - quaternion numbers
+http://en.wikipedia.org/wiki/Quaternion#Square_roots_of_.E2.88.921
