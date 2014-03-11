@@ -9,17 +9,26 @@ formula is well formed or not.
 A set of axioms or axiom schemata: each axiom must be a wff.
 A set of inference rules.
 
+//////////////////////////////////////////////////////////////////////////////////////////
+//   PRETTY PICTURES OF THIS THEORY IN ACTION: http://imgur.com/a/Qu0dv
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
 // TODO: sql bindings for data manipulation
 // YAML: for model 
+// lazy asimov: from "pioneer satellite" import that plague; make rule: dont' fuck with these guys k. :effort:
+// also this also means you can do the asimov: don't do anything without being aware of the consequences thing.
 
-// set imperative algo and recursive algo off at the same time - compute a nash equilibria for any given situation
+// set imperative algo and recursive algo off at the same time - compute a NASH EQUILIBRIA for any given situation
 // imperative so you can be lazy and inaccurate, but potentially quick if you have a shortcut for a high entropy situation
 // recursive so you can be accurate (i think proper recursion would always be faster tho, especially if you bitshift the pointers)
 
 // bitshift +/- for ptr++ operations
 
 // i = known unknown, what is sqrt(i) - i.e. truely unknowable - fundamental unit of uncertainty
+// -i = unknown unknown
 // i is self - you are fundamentally uncertain as a thing, reality is not infinitely knowable
+// certainty/uncertainty (ordinals?) on a plane (mobius strip)
 
 // grad / div / curl == 1,0, (0,1) ?? probably not its probably a pauli matrix but
 // these are probably relevant as inspection operators - grad/div/curl describes the set theory of the operators? the domain? i.e. all the special cases
@@ -37,6 +46,14 @@ A set of inference rules.
 // Monads are a code abstraction of metaphors - rules, lists, structures, arrangments: repeated nested structures
 // monads are a representation of a thing, at i guess nothing we see truely is real
 // metaphor as polymorphic object
+
+// the empty set is a monad, actually, it has defualt methods (join, bisect, count, get item at index n^k), all fundamental 
+// above is important: fundamental boolean logic, exists, NOT (also "MAYBE", and as of yet "unnkowable" as unique truth values)
+// http://lingo.stanford.edu/sag/papers/PS94-ch1.pdf page 16
+
+
+// stdio -> main monad -> stdout
+//			     |------> stderr
 
 
 // LINK: basic metaphor of infinity, potential infiinty https://www.t-kougei.ac.jp/research/pdf/vol2-27-06.pdf
@@ -99,7 +116,8 @@ int main(int argc, char const *argv[]) // optional turing head start location (i
 	// and thus quantify our hyperbolic uncertainty as it varies with time - this is skynet i think
 	// inherently self aware of what it knows and what it does not know
 
-	// shared reality is the blockchain like in bitcoin except really it's a hash of the work function you did with specific IO (and maybe separate hashes for each)
+	// shared reality is the blockchain like in bitcoin except really it's a hash of the work function
+	// you did with specific IO (and maybe separate hashes for Input and Output for extra security)
 
     // Exceptions:
 	// throw "P, program finished", "NP, program failed to finish" "Don't know (certainty threshold) (zero but tends to 1 as ], count to infinity,
@@ -109,6 +127,8 @@ int main(int argc, char const *argv[]) // optional turing head start location (i
 
 	return 0; 
 }
+
+// NOTES
 
 transistor: ternary branching - P, NP, PNP NP NP NPNP = i^2 - 1  - godel incompleteness
 

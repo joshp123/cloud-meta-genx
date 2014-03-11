@@ -15,12 +15,14 @@ Cloud Meta GenX TODO/ROADMAP:
 4) BETA2: parallel dispacthing
 	* play with celery more (low priority as long as 1 instance works, linearitsudo pip y is not that much of a drawback=)
 
+well none of this happened and i started writing a new programming language. lol oh welL!
 
-MoSCoW priorities:
+
+### MoSCoW priorities:
 
 Must
 -----
-get all the web shit
+- get all the web shit
 - wire up headless first
 - headless + params code
 - first push butan run python thing
@@ -63,8 +65,12 @@ Could
 
 File struct: 
 /README.MD > make a quicy snyposis, link to our other files (github pages version links?)
-/ABOUT.MD > more wikify ? dont replicate pages content - maybe quick overview 1 click install batteries included readme, about is more in depth
+
+/ABOUT.MD > more wikify ? dont replicate pages content - maybe 
+quick overview 1 click install batteries included readme, about is more in depth
+
 /FUTURE.MD > merge known issues
+
 /SETUP.MD
 
 

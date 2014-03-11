@@ -1,5 +1,9 @@
 # ZFC programming language
 
+### N.B. This is my digital "notepad" so it's quite insane.
+
+### [pretty pictures of all this!](http://imgur.com/a/Qu0dv)
+
 
 turing machine as fabey/perot infereometer (just quite good) or michelson moreley inferometer measuring bg radiation (physics) and the structure of it (math) and the why (philosophy)
 
