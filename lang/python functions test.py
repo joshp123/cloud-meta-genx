@@ -95,6 +95,11 @@ this represents possible sets
 
  hahahahahaahahaha shit
 
+so planck = dE/dp for all states, so that's 1/2 * 2 *2 = 2 -> reimann zeta function limits, mandelbrot fractal who knew it!
+yeah so planck is z(n) + c - set of mandelbrot points
+
+ this all depends on fermats last theorem being true, which it has been QUOD EROS DEMONSTRANDUM THIS IS THE UNIVERSE'S OPERATING SYSTEM 219219219
+
  so this is the projection from the spacetime cones to the observer's hyperplane - interestingly i think they must agree, otherwise reality is inconsistent and you've divided by zero somewhere - vanishing point - like in cellular automata, like in reimann zeta function
 
  so we have a quantum harmonic oscillatory coin flip, entropy being number of operations, and the probability with which it moves is the axiom of choice; as is the starting state.
@@ -107,6 +112,32 @@ this represents possible sets
  	- you can also make weak measurements by taking measurements on a set of similarish stuff. so trying to learn about all animals by looking at dogs. or evolution. or something. but "specialism" in the current sense (being king professor of $your_subject) is just being really good at making weak measurements - and this introduces systemic uncertainty as a result of your abstractions and essentially bad stats and stopping the func from being infinitely differentiable
 
  axiom of choice - you choose your basis vectors, alice bob all that shit - which essentially work on the einstein general relativity equations, but you can apply them all the way down to F = ma when you're defining euclidian space - axiom of choice defines your euler angles, and whether your space is actually orthogonal
+
+
+ asimov laws as - no action without knowing consequences (try before do? implicit sudo?)
+ zero sum game - the strategy that implies true overall equality and unity between all based on our individual desired outcomes
+
+ http://en.wikipedia.org/wiki/Bures_metric
+
+ here we go back to quantum information theory, this will show us how to get our functions out, schweet
+
+ oh cool they have wierd lambda calculus too. cheers idiot academic elitism and bucketing
+
+ cramer-rao band on quantum fisher information matrix (order 20, 2*3^{2,1,1} = planck?) well i suppose yeah it's 20*20 = 40 and the 3 is the potential, 
+
+ oh schweet this can be our cryptographic seeds, largest known prime, physical constants to current precision, because THAT is the edge of the light cone that we have proved using math (by exhaustion)
+
+ nash equilibria of the gaussian distribution of a/b
+
+ just go for like 10 sigma
+
+  dh = 6.626 069 57(29) x 10-34 J s    
+  dE = kb/T = kb/4.2K (an abstraction, lenght of universe i.e. nlog n (so nlogn that a couple of times to accurately find the age of the universe)) then same with kb/t
+
+  they are all orthogonal tho so
+
+  
+
 
 equality not equality
 membership not membership
