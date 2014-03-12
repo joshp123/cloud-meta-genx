@@ -57,7 +57,10 @@ uncerta
 
 The directional charges are different for an electron that has always been at rest and an electron that has always been moving at a certain nonzero velocity (because of the Lorentz transformations). The conclusion is that both electrons lie in different superselection sectors no matter how tiny the velocity is.[3
 
-axiom of choice
+axiom of choice = integration
+axiom of uncertainty = dimesnsions
+empty set = fibbonaci series of primes?
+z = empty set, x = axiom of choice, y = 
 
 
 http://terrytao.wordpress.com/2014/02/25/conserved-quantities-for-the-euler-equations/
@@ -88,3 +91,8 @@ http://en.wikipedia.org/wiki/Goldstone_boson
 implement this plus this and we've got it rly
 
 goldstino stone boson/fermion as cardinality and ordinality of the empty set
+
+
+z = |_frac_{{r};{n}}z({1-|_frac_{{Re({z})- Im({z})};{z^{2}}}}), n = sin({e^{x^{2}}-e^{y^{3}}+z})-icos({e^{x^{3}}- ex^{3}-y^{2}})
+
+interseting function
