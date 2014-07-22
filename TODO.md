@@ -15,8 +15,6 @@ Cloud Meta GenX TODO/ROADMAP:
 4) BETA2: parallel dispacthing
 	* play with celery more (low priority as long as 1 instance works, linearitsudo pip y is not that much of a drawback=)
 
-well none of this happened and i started writing a new programming language. lol oh welL!
-
 
 ### MoSCoW priorities:
 
